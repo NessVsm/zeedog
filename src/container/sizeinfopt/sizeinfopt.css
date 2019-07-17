@@ -163,7 +163,7 @@
     padding: 10px;
     position: absolute;
     z-index: 1;
-    font-size: 1.5em;
+    font-size: 1.0em;
     text-align: center;
     width: 78px;
     margin-left: 0.5vw; }
@@ -175,3 +175,7 @@
     margin-top: 0vh; }
   .sizes-pet-row {
     height: 9vh; } }
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+  .suggested-size {
+    margin-left: 1.5vw; } }

@@ -230,3 +230,10 @@ $cor_3:#2d3d8d;
     
 
 }
+
+@media only screen and (min-width: 1024px) and (orientation:portrait){
+
+    .suggested-size{
+        margin-left:1.5vw;
+    }
+}

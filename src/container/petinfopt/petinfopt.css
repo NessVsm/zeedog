@@ -1,7 +1,8 @@
 #pet-breed-disclaimer-text {
   font-size: 0.8em;
   text-align: center;
-  display: block; }
+  display: block;
+  text-transform: uppercase; }
 
 #disclaimer-breed-pt {
   flex-direction: column; }
@@ -54,7 +55,9 @@
     font-weight: 700;
     font-size: 1.2em;
     margin-bottom: 0;
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    display: block; }
   #pet-breed-disclaimer-text {
     font-size: 0.8em;
     margin-bottom: 2vh; } }
@@ -107,7 +110,7 @@
 
 @media only screen and (min-width: 758px) and (orientation: portrait) {
   #balloon-size {
-    margin-top: 10vh; }
+    margin-top: 0vh; }
   #return-btn-breed-pt {
     width: 220px; }
   #pt-back-button-form {
@@ -142,3 +145,7 @@
     font-size: 2.8em; }
   #disclaimer-breed-pt {
     width: 26vw; } }
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+  #balloon-size {
+    margin-top: 10vh; } }

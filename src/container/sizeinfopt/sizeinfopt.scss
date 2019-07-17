@@ -211,7 +211,7 @@ $cor_3:#2d3d8d;
         padding: 10px;
         position: absolute;
         z-index: 1;
-        font-size: 1.5em;
+        font-size: 1.0em;
         text-align: center;
         width: 78px;
         margin-left:0.5vw;
@@ -229,4 +229,10 @@ $cor_3:#2d3d8d;
        }
     
 
+}
+
+@media only screen and (min-width: 1024px) and (orientation:portrait){
+    .suggested-size{
+        margin-left:1.5vw;
+    }
 }
