@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zeedog/static/css/main.760770c8.chunk.css",
+    "main.css": "/zeedog/static/css/main.4b49b1e2.chunk.css",
     "main.js": "/zeedog/static/js/main.882c76f7.chunk.js",
     "main.js.map": "/zeedog/static/js/main.882c76f7.chunk.js.map",
     "runtime~main.js": "/zeedog/static/js/runtime~main.0991f216.js",
@@ -8,8 +8,8 @@
     "static/js/2.7a9f15ff.chunk.js": "/zeedog/static/js/2.7a9f15ff.chunk.js",
     "static/js/2.7a9f15ff.chunk.js.map": "/zeedog/static/js/2.7a9f15ff.chunk.js.map",
     "index.html": "/zeedog/index.html",
-    "precache-manifest.38b9955c3ee46ef2f2da3c9555010b4c.js": "/zeedog/precache-manifest.38b9955c3ee46ef2f2da3c9555010b4c.js",
+    "precache-manifest.a34ef5d29003cdc481a9e6eb3fe1f84e.js": "/zeedog/precache-manifest.a34ef5d29003cdc481a9e6eb3fe1f84e.js",
     "service-worker.js": "/zeedog/service-worker.js",
-    "static/css/main.760770c8.chunk.css.map": "/zeedog/static/css/main.760770c8.chunk.css.map"
+    "static/css/main.4b49b1e2.chunk.css.map": "/zeedog/static/css/main.4b49b1e2.chunk.css.map"
   }
 }

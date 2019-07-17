@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fc0ca3975d8b43cdc5bdfc23e1ad922",
+    "revision": "5057e2947675b2cc424e8a736cc5a510",
     "url": "/zeedog/index.html"
   },
   {
-    "revision": "2751c79bb1f137e123a6",
-    "url": "/zeedog/static/css/main.760770c8.chunk.css"
+    "revision": "ea67be84904006e57240",
+    "url": "/zeedog/static/css/main.4b49b1e2.chunk.css"
   },
   {
     "revision": "625e517f677594679dd9",
     "url": "/zeedog/static/js/2.7a9f15ff.chunk.js"
   },
   {
-    "revision": "2751c79bb1f137e123a6",
+    "revision": "ea67be84904006e57240",
     "url": "/zeedog/static/js/main.882c76f7.chunk.js"
   },
   {
