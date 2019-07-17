@@ -51,11 +51,7 @@ $cor_6: #aaa;
 }
 
 @media only screen and (min-width:320px) and (orientation: portrait){
-    #boxes-container{
-      width:100vw;
-      height: 100vh;
-      display: flex;
-    }
+   
     .select-button{
         padding:0px;
     }
@@ -83,11 +79,6 @@ $cor_6: #aaa;
         margin-top: 5vh;    
         height:20vh;
     }
-    #boxes-container{
-        width:100vw;
-        height: 100vh;
-        display: block;
-      }
       .select-button{
           padding:0px;
           margin-top:5vh;
@@ -122,9 +113,7 @@ $cor_6: #aaa;
 }
 
   @media only screen and(min-width:768px) and (orientation:landscape){
-    #boxes-container{
-        display:flex;
-    }
+  
         
     #select-button-img{
         width: 42vw;
@@ -145,12 +134,6 @@ $cor_6: #aaa;
         width: 64vw;
         top: -25vh;
         left:2.5vw;
-    }
-  }
-  @media only screen and(min-width:992px){
-    #boxes-container{
-        display:flex;
-  
     }
   }
   @media only screen and(min-width:1024px) and (orientation:landscape){
@@ -180,10 +163,5 @@ $cor_6: #aaa;
         left:2.5vw;
     }
 
-  }
-  @media only screen and(min-width:992px){
-    #boxes-container{
-        display:flex;
   
-    }
   }

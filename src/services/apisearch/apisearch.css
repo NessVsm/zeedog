@@ -41,10 +41,6 @@
   width: 80vw; }
 
 @media only screen and (min-width: 320px) and (orientation: portrait) {
-  #boxes-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex; }
   .select-button {
     padding: 0px; }
   .api-search-retrieval {
@@ -65,10 +61,6 @@
     margin-left: 11vw;
     margin-top: 5vh;
     height: 20vh; }
-  #boxes-container {
-    width: 100vw;
-    height: 100vh;
-    display: block; }
   .select-button {
     padding: 0px;
     margin-top: 5vh; }
@@ -93,8 +85,6 @@
     height: 15vh; } }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
-  #boxes-container {
-    display: flex; }
   #select-button-img {
     width: 42vw;
     height: 20vh;
@@ -110,10 +100,6 @@
     width: 64vw;
     top: -25vh;
     left: 2.5vw; } }
-
-@media only screen and (min-width: 992px) {
-  #boxes-container {
-    display: flex; } }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
   #select-button-img {
@@ -132,7 +118,3 @@
     width: 64vw;
     top: -21vh;
     left: 2.5vw; } }
-
-@media only screen and (min-width: 992px) {
-  #boxes-container {
-    display: flex; } }
