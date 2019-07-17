@@ -1,0 +1,144 @@
+#pet-breed-disclaimer-text {
+  font-size: 0.8em;
+  text-align: center;
+  display: block; }
+
+#disclaimer-breed-pt {
+  flex-direction: column; }
+
+#pt-back-button-form {
+  z-index: 999; }
+
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  #disclaimer-breed-pt {
+    width: 26vw; }
+  #pet-name-pt {
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 230px;
+    margin: 0 auto; }
+  .pet-info-pt {
+    height: 47vh;
+    width: 92vw;
+    display: flex;
+    height: 63vh; }
+  #balloon-size {
+    width: 46vw;
+    flex-direction: column;
+    height: 11vh; }
+  #pt-back-button-form {
+    width: 46vw;
+    flex-direction: column;
+    height: 11vh;
+    margin-left: 46vw; }
+  #pt-back-button-form a {
+    width: 46vw;
+    height: 11vh; }
+  #return-btn-breed-pt {
+    width: 21vw;
+    flex-direction: column; }
+  #dog-pet-img {
+    width: 21.3vw;
+    margin: 0 auto;
+    height: 14.7vh; }
+  #dog-img {
+    width: 92vw;
+    height: 34vh;
+    position: absolute;
+    margin-top: 5vh; }
+  #dog-pet-img img {
+    position: absolute;
+    height: 27vh;
+    text-align: center; }
+  #pet-breed {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    letter-spacing: -1px; }
+  #pet-breed-disclaimer-text {
+    font-size: 0.8em;
+    margin-bottom: 2vh; } }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .pet-info-pt {
+    height: 47vh;
+    width: 92vw;
+    display: flex;
+    height: 63vh; }
+  #disclaimer-breed-pt {
+    width: 35vw;
+    flex-direction: column; }
+  #balloon-size {
+    width: 46vw;
+    flex-direction: column;
+    height: 11vh; }
+  #pt-back-button-form {
+    width: 46vw;
+    flex-direction: column;
+    height: 11vh;
+    margin-left: 32vw; }
+  #pt-back-button-form a {
+    width: 46vw;
+    height: 11vh; }
+  #return-btn-breed-pt {
+    width: 25vw;
+    flex-direction: column; }
+  #dog-pet-img {
+    width: 35.3vw;
+    margin: 0 auto;
+    height: 14.7vh; }
+  #dog-img {
+    width: 92vw;
+    height: 34vh;
+    position: absolute;
+    margin-top: 20vh; }
+  #dog-pet-img img {
+    position: absolute;
+    height: 14.7vh;
+    text-align: center; }
+  #pet-breed {
+    font-weight: 700;
+    font-size: 2.0em;
+    margin-bottom: 0;
+    letter-spacing: -1px; }
+  #pet-breed-disclaimer-text {
+    font-size: 0.8em;
+    margin-bottom: 2vh; } }
+
+@media only screen and (min-width: 758px) and (orientation: portrait) {
+  #balloon-size {
+    margin-top: 10vh; }
+  #return-btn-breed-pt {
+    width: 220px; }
+  #pt-back-button-form {
+    text-align: right;
+    margin-top: -2vh; }
+  #dog-pet-img {
+    max-width: 300px; }
+  #dog-pet-img img {
+    max-width: 300px;
+    max-height: 200px;
+    min-height: 200px; } }
+
+@media only screen and (min-width: 758px) and (orientation: landscape) {
+  #balloon-size {
+    width: 24vw; }
+  #dog-img {
+    width: 92vw;
+    height: 34vh;
+    position: absolute; }
+  #return-btn-breed-pt {
+    width: 17vw; }
+  #pt-back-button-form {
+    text-align: right;
+    margin-top: -2vh; }
+  #dog-pet-img {
+    max-width: 300px; } }
+
+@media only screen and (min-width: 1024px) {
+  #dog-img {
+    margin-top: 10vh; }
+  #pet-breed {
+    font-size: 2.8em; }
+  #disclaimer-breed-pt {
+    width: 26vw; } }

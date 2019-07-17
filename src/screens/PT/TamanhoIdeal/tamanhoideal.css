@@ -1,0 +1,9 @@
+.tamanho-ideal {
+  background: #23b2e3;
+  width: 100vw;
+  height: 97vh;
+  transition: all .3s;
+  display: block;
+  color: #fff;
+  padding: 4vw;
+  line-height: 1; }

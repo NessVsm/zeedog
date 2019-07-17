@@ -1,0 +1,27 @@
+$cor_1: #000;
+
+footer#container-footer{
+    position: absolute;
+    width: 100vw;
+    background: $cor_1;
+    left: 0;
+    bottom: 0;
+}
+
+#zeedog-logo{
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px)  and (orientation:landscape){
+    footer#container-footer {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    footer#container-footer {
+        position: fixed;
+    }
+  }

@@ -1,0 +1,13 @@
+$cor_1:  #fa7b24;
+$cor_2: #fff;
+
+.ideal-size{
+    background: $cor_1;
+    width: 100vw;
+    height: 97vh;
+    transition: all .3s;
+    display: block;
+    color: $cor_2;
+    padding: 4vw;
+    line-height: 1;
+}

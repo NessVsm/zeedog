@@ -1,0 +1,177 @@
+#sizes-pt {
+  background: url(https://www.zeedog.com.br/arquivos/table-background.png); }
+
+.size-info-pt {
+  position: absolute; }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .sizes-pet-row {
+    text-align: right;
+    margin-top: 12px;
+    margin-left: 13px;
+    line-height: 1em;
+    height: 8vh;
+    display: inline-block;
+    width: 85vw; }
+  .sizes-pet {
+    display: inline-block;
+    width: 100%; }
+  .size-info-pt {
+    bottom: 3vh;
+    height: 40vh;
+    width: 92vw; }
+  #sizes-pt {
+    background-size: 100% 100%;
+    height: 45vh;
+    width: 91vw;
+    margin-top: 3vh;
+    padding: 0px;
+    position: absolute;
+    bottom: -2vh; }
+  .sizes-pet-row:first-child {
+    margin-top: 10vh; }
+  .pet-info-td {
+    font-size: 1.0em;
+    display: inline-block;
+    text-align: left;
+    color: #2d3d8d;
+    text-transform: uppercase;
+    height: 50px;
+    position: relative;
+    width: 40vw; }
+  .categorie-label {
+    display: inline-block;
+    margin-top: 2vh;
+    width: 17vw;
+    font-size: 0.5em;
+    text-align: center;
+    vertical-align: top; }
+  .suggested-size {
+    width: 21vw;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.0em;
+    text-align: center;
+    width: 15vw; }
+  .pet-info-td img {
+    width: 50px; } }
+
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  #sizes-pt {
+    background-size: 100%;
+    height: 39vh;
+    width: 91vw;
+    margin-top: 3vh;
+    padding: 0px;
+    position: absolute;
+    bottom: 0vh; }
+  .size-info-pt {
+    bottom: 11vh;
+    height: 40vh;
+    width: 92vw; }
+  .sizes-pet {
+    display: inline-block;
+    width: 100%; }
+  .sizes-pet-row {
+    text-align: right;
+    margin-top: 12px;
+    margin-left: 13px;
+    line-height: 1em;
+    height: 8vh;
+    display: inline-block;
+    width: 85vw; }
+  .sizes-pet-row:first-child {
+    margin-top: 5vh; }
+  .pet-info-td {
+    font-size: 1.0em;
+    display: inline-block;
+    text-align: left;
+    color: #2d3d8d;
+    text-transform: uppercase;
+    height: 50px;
+    position: relative;
+    width: 40vw; }
+  .pet-info-td img {
+    width: 55px; }
+  .categorie-label {
+    display: inline-block;
+    margin-top: 2vh;
+    width: 17vw;
+    font-size: 0.5em;
+    text-align: center;
+    vertical-align: top; }
+  .suggested-size {
+    font-weight: 700;
+    color: #fff;
+    padding: 6px;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.0em;
+    text-align: center;
+    width: 58px; } }
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .size-info-pt {
+    bottom: 8vh; }
+  #sizes-pt {
+    height: 42vh;
+    margin-top: -13vh; }
+  .sizes-pet-row {
+    margin: 10px; }
+  .sizes-pet-row:first-child {
+    margin-top: 9vh; }
+  .pet-info-td {
+    font-size: 1.4em;
+    display: inline-block;
+    height: 43px;
+    position: relative; }
+  .categorie-label {
+    margin-top: 1vh;
+    width: 27vw;
+    line-height: 1;
+    font-size: 0.8em;
+    text-align: right; }
+  .suggested-size {
+    font-weight: 700;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.5em;
+    text-align: center;
+    width: 78px;
+    margin-left: 0.5vw; }
+  .pet-info-td img {
+    position: absolute;
+    width: 90px;
+    margin-top: -1vh; } }
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .pet-info-td img {
+    position: absolute;
+    width: 90px;
+    margin-top: -1vh; }
+  .pet-info-td {
+    font-size: 1.8em;
+    display: inline-block;
+    height: 43px;
+    position: relative; }
+  .suggested-size {
+    font-weight: 700;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.5em;
+    text-align: center;
+    width: 78px;
+    margin-left: 0.5vw; }
+  .sizes-pet-row {
+    width: 89vw; }
+  .categorie-label {
+    font-size: 0.8em;
+    line-height: 2;
+    margin-top: 0vh; }
+  .sizes-pet-row {
+    height: 9vh; } }

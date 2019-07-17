@@ -1,0 +1,136 @@
+.api-search {
+  height: 260px; }
+
+.select-button {
+  height: 200px;
+  margin-top: -45px; }
+
+#select-button-img {
+  width: 550px;
+  height: 130px;
+  cursor: pointer;
+  z-index: 999; }
+
+.select-breeds {
+  height: 300px;
+  overflow-y: auto;
+  color: #0071bc;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0 auto;
+  width: 500px;
+  top: -30vh;
+  left: 1.5vw; }
+
+.select-breeds li {
+  list-style: none;
+  background-color: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  font-weight: 700;
+  line-height: 1;
+  padding: .8em 0;
+  text-align: center; }
+
+.select-breeds li:hover {
+  background-color: #5897fb;
+  color: #fff;
+  cursor: pointer; }
+
+.breed-selection-input {
+  border: 1px solid #aaa;
+  width: 80vw; }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  #boxes-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex; }
+  .select-button {
+    padding: 0px; }
+  .api-search-retrieval {
+    padding: 0px; }
+  #select-button-img {
+    width: 92vw;
+    height: 15vh; }
+  .select-breeds {
+    top: -35vh;
+    left: 1.5vw;
+    width: 90vw;
+    padding: 0px; } }
+
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  #select-button-img {
+    position: absolute;
+    width: 40vw;
+    margin-left: 11vw;
+    margin-top: 5vh;
+    height: 20vh; }
+  #boxes-container {
+    width: 100vw;
+    height: 100vh;
+    display: block; }
+  .select-button {
+    padding: 0px;
+    margin-top: 5vh; }
+  .api-search-retrieval {
+    padding: 0px; }
+  .select-breeds {
+    top: -40vh;
+    left: 1.5vw;
+    width: 60vw;
+    padding: 0px;
+    height: 170px; } }
+
+@media only screen and (min-width: 576px) and (orientation: landscape) {
+  .select-breeds {
+    top: -35vh; } }
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #select-button-img {
+    width: 68vw;
+    height: 15vh; } }
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  #boxes-container {
+    display: flex; }
+  #select-button-img {
+    width: 42vw;
+    height: 20vh;
+    margin-top: 50vh;
+    margin-left: 5vw; }
+  .select-breeds {
+    width: 45vw;
+    top: 4vh;
+    left: 2.5vw; } }
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .select-breeds {
+    width: 64vw;
+    top: -25vh;
+    left: 2.5vw; } }
+
+@media only screen and (min-width: 992px) {
+  #boxes-container {
+    display: flex; } }
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  #select-button-img {
+    margin: 0 auto;
+    width: 50vw; }
+  .select-button {
+    margin-top: 30vh; }
+  .select-breeds {
+    width: 48vw;
+    height: 22vh;
+    top: -21vh;
+    left: 1.0vw; } }
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+  .select-breeds {
+    width: 64vw;
+    top: -21vh;
+    left: 2.5vw; } }
+
+@media only screen and (min-width: 992px) {
+  #boxes-container {
+    display: flex; } }

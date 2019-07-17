@@ -1,0 +1,153 @@
+
+.breed-selection-pt{
+    transition: all .3s;
+    width: 550px;
+    height: 230px;
+    margin: 0 auto;
+    display: block;
+    line-height: 400px;
+}
+.form-text-pt{
+    vertical-align: middle;
+    line-height: 1.5;
+    margin: 0 auto;
+    height: 10vh;
+    margin-top: 20vh;
+}
+.form-select-pt{
+    height: 150px;
+    position: relative;
+}
+#form-title-pt{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+#form-subtitle-pt{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-top: 0;
+    text-align: center;
+}
+
+@media only screen and (min-width:320px) and (orientation:landscape){
+    .form-text-pt{
+        margin-top: 12vh;
+        max-width: 350px;
+        position: relative;
+        height:30vh;
+
+    }
+    .breed-selection-pt{
+        width: 65vw;
+        height: 98vh;
+        padding:5px;
+    }
+    .form-select-pt{
+        height: 30vh;
+        bottom: 25vh;
+        width:65vw;
+        position: absolute;
+    }
+}
+@media only screen and (min-width:320px) and (orientation:portrait){
+    .breed-selection-pt{
+        width: 96vw;
+        height: 98vh;
+        padding:5px;
+    }
+    .form-text-pt{
+        position: relative;
+        height: 30vh;
+    }
+    .form-select-pt{
+        height: 30vh;
+        bottom: 25vh;
+        width:94vw;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width:576px) and (orientation:landscape){
+    .form-text-pt{
+        margin-top: 0vh;
+    }
+    .form-select-em{
+        width: 60vw;
+        top: 0;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (orientation:portrait){
+    .breed-selection-pt{
+        width: 550px;
+        height: 230px;
+        padding: 10px;
+    }
+    .form-text-pt{
+        height: 10vh;
+    }
+    .pt-form-select-pt{
+        height: 150px;
+        position: relative;
+        bottom: 0;
+    }
+    .form-select-pt{
+        width: 70vw;
+        position:relative;
+        top:0vh;
+
+    }
+    #select-button-img {
+        width: 68vw;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (orientation:landscape){
+    .breed-selection-pt{
+        width: 54vw;
+        height: 230px;
+        padding: 10px;
+    }
+    .form-text-pt{
+        height: 10vh;
+        margin-top: -18vh;
+
+    }
+    .pt-form-select-pt{
+        height: 150px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .form-select-pt{
+        height: 150px;
+        position: relative;
+        width:55vh;
+    }
+}
+@media only screen and (min-width:1024px) and (orientation:landscape){
+   
+    .form-text-pt{
+        height: 10vh;
+        margin-top: 0vh;
+
+    }
+    .breed-selection-pt {
+        margin-top:10vh;
+    }
+}
+
+@media only screen and (min-width:1024px) and (orientation:portrait){
+
+    .breed-selection-pt {
+        width: 70vw;
+        height: 230px
+    }
+}

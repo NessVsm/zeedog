@@ -1,0 +1,28 @@
+#btn-sizechart-pt{
+    border: 0;
+    background: 0;
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+
+}
+
+#img-btn-PT{
+    width:300px;
+    cursor: pointer;
+}
+
+
+@media only screen and(min-width:320px){
+    #btn-sizechart-PT{
+      padding:0px;    
+    }
+}
+
+@media all and (min-width: 320px) and (orientation:landscape) {
+    #img-btn-PT{
+      width: 100px;
+    }
+  }
+  
