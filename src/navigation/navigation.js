@@ -10,7 +10,7 @@ import TamanhoIdeal from '../screens/PT/TamanhoIdeal/tamanhoideal';
 class navigation extends Component{
     render(){
         return(
-            <BrowserRouter>
+            <BrowserRouter basename="/zeedog">
                 <Switch >
                     <Route exact path="/" component={Homepage}/>
                     <Route path="/racas" component={Racas}/>
