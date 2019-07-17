@@ -5,7 +5,6 @@ import './sizeinfoen.css'
 class SizeInfoEn extends Component{
     constructor(props){
         super(props);
-        console.log(this.props.info.breed)
 
         this.state = {
             name_en: this.props.info.breed.en_name,
