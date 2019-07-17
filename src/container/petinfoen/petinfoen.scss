@@ -2,9 +2,14 @@
 #pet-breed-disclaimer-text{
     font-size: 0.8em;
     text-align: center;
-    display: block;
-    text-transform: uppercase;
+
 }
+
+#pet-breed{
+    display: block;
+    text-align: center;
+}
+
 #disclaimer-breed-en{
     flex-direction: column;
 }
