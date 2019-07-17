@@ -1,6 +1,8 @@
 #pet-breed-disclaimer-text {
   font-size: 0.8em;
-  text-align: center; }
+  text-align: center;
+  display: block;
+  text-transform: uppercase; }
 
 #pet-breed {
   display: block;
@@ -140,14 +142,16 @@
   #dog-pet-img {
     max-width: 300px; } }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  #dog-img {
+    margin-top: 0vh; } }
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
   #dog-img {
     margin-top: 10vh; }
   #pet-breed {
     font-size: 2.8em; }
-  #disclaimer-breed-en {
-    width: 26vw; } }
-
-@media only screen and (min-width: 1024px) and (min-width: 1024px) and (orientation: portrait) {
+  #disclaimer-breed-pt {
+    width: 26vw; }
   #balloon-size {
     margin-top: 10vh; } }
