@@ -30,7 +30,7 @@ class PetInfoPt extends Component{
 
             <section className="pet-info-pt">
                 <div id="balloon-size">
-                    <img id="disclaimer-breed-pt" className="disclaimer-breed" alt="Dogs of the same breed may vary in size" src="https://zeedog.vteximg.com.br/arquivos/disclaimer-en-breed.png?v=636029032841300000"/> 
+                    <img id="disclaimer-breed-pt" className="disclaimer-breed" alt="Cães da mesma raça podem usar tamanhos diferentes. Pense nisso!" src="https://zeedog.vteximg.com.br/arquivos/disclaimer-br-breed.png?v=636028946631600000"/> 
                 </div>
                 <div id="pt-back-button-form">
                     <Link to ='/racas'> <img id="return-btn-breed-pt" className="return-btn-breed" alt="Escolher outra raça" onClick={this.handleClick} src ={"http://www.zeedog.com.br"+this.state.imgsrc} /></Link>

@@ -9,7 +9,7 @@ class SizeInfoEn extends Component{
         this.state = {
             name_pt: this.props.info.breed.pt_name,
             leash:this.props.info.breed.leash[0],
-            collar:this.props.info.breed.collar[1],
+            collar:this.props.info.breed.collar[0],
             leash_ruff: this.props.info.breed.leash_ruff[0],
             obedience: this.props.info.breed.obedience[0],
             stepin: this.props.info.breed.stepin[0],
