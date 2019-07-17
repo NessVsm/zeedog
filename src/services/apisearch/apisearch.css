@@ -83,7 +83,9 @@
 
 @media only screen and (min-width: 576px) and (orientation: landscape) {
   .select-breeds {
-    top: -35vh; } }
+    top: -35vh; }
+  #select-button-img {
+    margin-top: 9vh; } }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
   #select-button-img {
@@ -118,7 +120,7 @@
     margin: 0 auto;
     width: 50vw; }
   .select-button {
-    margin-top: 30vh; }
+    margin-top: 38vh; }
   .select-breeds {
     width: 48vw;
     height: 22vh;

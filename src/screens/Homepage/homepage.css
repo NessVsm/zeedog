@@ -18,6 +18,10 @@
   #boxes-container {
     display: flex; } }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  #boxes-container {
+    display: block; } }
+
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
   #boxes-container {
     display: flex; } }

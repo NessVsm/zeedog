@@ -39,11 +39,11 @@
 @media only screen and (min-width: 768px) and (orientation: landscape) {
   #img-btn-return-pt {
     width: 11vw;
-    height: 19vh; }
+    height: 15vh; }
   .return-btn {
     width: 86vw; } }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
-  #img-btn-return-ot {
+  #img-btn-return-pt {
     width: 11vw;
-    height: 15vh; } }
+    height: 12vh; } }
